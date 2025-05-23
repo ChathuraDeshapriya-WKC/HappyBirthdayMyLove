@@ -33,7 +33,7 @@ function spawnHeart() {
             document.body.appendChild(countdownMessage);
 
             const countdownInterval = setInterval(() => {
-                countdownMessage.textContent = `Congratulations!!! YOU WIN MY HEART... ❤️🎉\n Moving to the next level in ${countdown} seconds...`;
+                countdownMessage.textContent = `Congratulations!!!     YOU Are Mine Now...      ❤️🎉\n Wait Suduu.... ${countdown} seconds...`;
                 countdown--;
                 
                 if (countdown < 0) {
